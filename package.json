@@ -1,0 +1,22 @@
+{
+  "name": "nier-extension-theme",
+  "displayName": "Nier:Extension Theme",
+  "description": "My first theme, based on a Nier: Automata theme, by 'Israel Yago Pereira'",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nier:Extension",
+        "uiTheme": "vs",
+        "path": "./themes/NierExtension-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "ALEX"
+}
